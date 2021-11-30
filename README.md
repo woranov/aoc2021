@@ -1,6 +1,6 @@
 # Advent of Code 2021
 
-## Python
+## Python (3.10)
 ```console
 python -m dayXX.part1
 python -m dayXX.part2
