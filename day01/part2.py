@@ -18,8 +18,7 @@ def compute(data):
     5
     """
     nums = [int(n) for n in data]
-    sums = [sum(ns) for ns in zip(nums, nums[1:], nums[2:])]
-    return sum(n2 > n1 for n1, n2 in zip(sums, sums[1:]))
+    return sum(n2 > n1 for n1, n2 in zip(nums, nums[3:]))
 
 
 def main():
