@@ -18,3 +18,11 @@ g++ ./dayXX/part1.cpp -o ./dayXX/part1 && ./dayXX/part1
 g++ ./dayXX/part1.cpp -o ./dayXX/part2 && ./dayXX/part2
 rm ./dayXX/*.exe
 ```
+
+## C (gcc 11.2.0)
+[`day08`](/day08)
+```console
+gcc ./dayXX/part1.cpp -o ./dayXX/part1 && ./dayXX/part1
+gcc ./dayXX/part1.cpp -o ./dayXX/part2 && ./dayXX/part2
+rm ./dayXX/*.exe
+```
